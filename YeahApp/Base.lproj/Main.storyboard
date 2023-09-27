@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kjw-Rk-JKw">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Demo Ads-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YeahApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUl-NE-MYL">
+                                <rect key="frame" x="121.66666666666669" y="203" width="150" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Iz1-FC-MEc"/>
+                                    <constraint firstAttribute="height" constant="40" id="oLQ-vx-hxx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Banner Ads"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bannerAdsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gM7-hb-lwM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emx-4Z-WMp">
+                                <rect key="frame" x="81.666666666666686" y="303" width="230" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="8kS-YB-bvH"/>
+                                    <constraint firstAttribute="height" constant="40" id="BA3-z5-YoE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Interstitial Image Ads"/>
+                                <connections>
+                                    <action selector="interstitialImageAdsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Fg-xO-s8s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSz-fA-3c6">
+                                <rect key="frame" x="81.666666666666686" y="403" width="230" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="5Ga-em-Pxj"/>
+                                    <constraint firstAttribute="height" constant="40" id="qPI-dp-nfo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Interstitial Video Ads"/>
+                                <connections>
+                                    <action selector="interstitialVideoAdsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZk-rU-qzX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urs-n4-JM9">
+                                <rect key="frame" x="81.666666666666686" y="503" width="230" height="40"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="aKR-jO-8ag"/>
+                                    <constraint firstAttribute="height" constant="40" id="hxm-ig-g4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Rewarded Video Ads"/>
+                                <connections>
+                                    <action selector="rewardedVideoAdsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkB-zS-1hq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="urs-n4-JM9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0dP-A6-Dun"/>
+                            <constraint firstItem="urs-n4-JM9" firstAttribute="top" secondItem="zSz-fA-3c6" secondAttribute="bottom" constant="60" id="6u5-CF-feC"/>
+                            <constraint firstItem="emx-4Z-WMp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jhb-rq-aGD"/>
+                            <constraint firstItem="PUl-NE-MYL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="QgB-0f-cCD"/>
+                            <constraint firstItem="PUl-NE-MYL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QmI-ML-UiB"/>
+                            <constraint firstItem="zSz-fA-3c6" firstAttribute="top" secondItem="emx-4Z-WMp" secondAttribute="bottom" constant="60" id="gx7-V2-f4f"/>
+                            <constraint firstItem="emx-4Z-WMp" firstAttribute="top" secondItem="PUl-NE-MYL" secondAttribute="bottom" constant="60" id="oJS-jm-ZtN"/>
+                            <constraint firstItem="zSz-fA-3c6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qZ4-A2-HuY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Demo Ads" id="hau-fv-Ekb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826.71755725190837" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uVS-sa-SOX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kjw-Rk-JKw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x6A-IG-tql">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UBT-GK-PN8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JH8-te-78d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

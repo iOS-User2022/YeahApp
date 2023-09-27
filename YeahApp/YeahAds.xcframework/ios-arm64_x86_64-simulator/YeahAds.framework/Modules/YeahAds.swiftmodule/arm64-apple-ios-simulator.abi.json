@@ -1,0 +1,4340 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Var",
+        "name": "apiBaseUrl",
+        "printedName": "apiBaseUrl",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7YeahAds10apiBaseUrlSSvp",
+        "mangledName": "$s7YeahAds10apiBaseUrlSSvp",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:7YeahAds10apiBaseUrlSSvg",
+            "mangledName": "$s7YeahAds10apiBaseUrlSSvg",
+            "moduleName": "YeahAds",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:7YeahAds10apiBaseUrlSSvs",
+            "mangledName": "$s7YeahAds10apiBaseUrlSSvs",
+            "moduleName": "YeahAds",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:7YeahAds10apiBaseUrlSSvM",
+            "mangledName": "$s7YeahAds10apiBaseUrlSSvM",
+            "moduleName": "YeahAds",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Reachability",
+        "printedName": "Reachability",
+        "declKind": "Class",
+        "usr": "s:7YeahAds12ReachabilityC",
+        "mangledName": "$s7YeahAds12ReachabilityC",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "YeahAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardUpdateDelegate",
+        "printedName": "RewardUpdateDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "passAPIvalues",
+            "printedName": "passAPIvalues(point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : AnyObject]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds20RewardUpdateDelegateP13passAPIvalues5pointySaySDySSyXlGG_tF",
+            "mangledName": "$s7YeahAds20RewardUpdateDelegateP13passAPIvalues5pointySaySDySSyXlGG_tF",
+            "moduleName": "YeahAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : YeahAds.RewardUpdateDelegate>",
+            "sugared_genericSig": "<Self where Self : YeahAds.RewardUpdateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7YeahAds20RewardUpdateDelegateP",
+        "mangledName": "$s7YeahAds20RewardUpdateDelegateP",
+        "moduleName": "YeahAds",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebViewUpdateDelegate",
+        "printedName": "WebViewUpdateDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateWebView",
+            "printedName": "updateWebView(webV:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds21WebViewUpdateDelegateP06updatecD04webVySo05WKWebD0C_tF",
+            "mangledName": "$s7YeahAds21WebViewUpdateDelegateP06updatecD04webVySo05WKWebD0C_tF",
+            "moduleName": "YeahAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : YeahAds.WebViewUpdateDelegate>",
+            "sugared_genericSig": "<Self where Self : YeahAds.WebViewUpdateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7YeahAds21WebViewUpdateDelegateP",
+        "mangledName": "$s7YeahAds21WebViewUpdateDelegateP",
+        "moduleName": "YeahAds",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Yeah_Ads",
+        "printedName": "Yeah_Ads",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rewardDelegate",
+            "printedName": "rewardDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "YeahAds.RewardUpdateDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvp",
+            "mangledName": "$s7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvp",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YeahAds.RewardUpdateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardUpdateDelegate",
+                        "printedName": "YeahAds.RewardUpdateDelegate",
+                        "usr": "s:7YeahAds20RewardUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvg",
+                "mangledName": "$s7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvg",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YeahAds.RewardUpdateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardUpdateDelegate",
+                        "printedName": "YeahAds.RewardUpdateDelegate",
+                        "usr": "s:7YeahAds20RewardUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvs",
+                "mangledName": "$s7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvs",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvM",
+                "mangledName": "$s7YeahAds0a1_B0C14rewardDelegateAA012RewardUpdateD0_pSgvM",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webViewDelegate",
+            "printedName": "webViewDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "YeahAds.WebViewUpdateDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvp",
+            "mangledName": "$s7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvp",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YeahAds.WebViewUpdateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewUpdateDelegate",
+                        "printedName": "YeahAds.WebViewUpdateDelegate",
+                        "usr": "s:7YeahAds21WebViewUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvg",
+                "mangledName": "$s7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvg",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YeahAds.WebViewUpdateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebViewUpdateDelegate",
+                        "printedName": "YeahAds.WebViewUpdateDelegate",
+                        "usr": "s:7YeahAds21WebViewUpdateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvs",
+                "mangledName": "$s7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvs",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvM",
+                "mangledName": "$s7YeahAds0a1_B0C15webViewDelegateAA03Webd6UpdateE0_pSgvM",
+                "moduleName": "YeahAds",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "YeahAdsInitialize",
+            "printedName": "YeahAdsInitialize(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0aB10Initialize2idySS_tF",
+            "mangledName": "$s7YeahAds0a1_B0C0aB10Initialize2idySS_tF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Yeah_Ads",
+                "printedName": "YeahAds.Yeah_Ads",
+                "usr": "c:@M@YeahAds@objc(cs)Yeah_Ads"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YeahAds@objc(cs)Yeah_Ads(im)initWithNibName:bundle:",
+            "mangledName": "$s7YeahAds0a1_B0C7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "YeahAds",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YeahAds.Yeah_Ads?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Yeah_Ads",
+                    "printedName": "YeahAds.Yeah_Ads",
+                    "usr": "c:@M@YeahAds@objc(cs)Yeah_Ads"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YeahAds@objc(cs)Yeah_Ads(im)initWithCoder:",
+            "mangledName": "$s7YeahAds0a1_B0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "YeahAds",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserDefaultValue",
+            "printedName": "getUserDefaultValue(zones:str:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C19getUserDefaultValue5zones3strySS_SStF",
+            "mangledName": "$s7YeahAds0a1_B0C19getUserDefaultValue5zones3strySS_SStF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "passAPIvalues",
+            "printedName": "passAPIvalues(point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : AnyObject]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C13passAPIvalues5pointySaySDySSyXlGG_tF",
+            "mangledName": "$s7YeahAds0a1_B0C13passAPIvalues5pointySaySDySSyXlGG_tF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateWebView",
+            "printedName": "updateWebView(webV:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C13updateWebView4webVySo05WKWebE0C_tF",
+            "mangledName": "$s7YeahAds0a1_B0C13updateWebView4webVySo05WKWebE0C_tF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahAppBannerImageAd",
+            "printedName": "YeahAppBannerImageAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0A16AppBannerImageAdyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0A16AppBannerImageAdyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahInterstitialImageAds_Load",
+            "printedName": "YeahInterstitialImageAds_Load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a17InterstitialImageB5_LoadyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a17InterstitialImageB5_LoadyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahInterstitialImageAds_Show",
+            "printedName": "YeahInterstitialImageAds_Show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a17InterstitialImageB5_ShowyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a17InterstitialImageB5_ShowyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahInterstitialVideoAds_Load",
+            "printedName": "YeahInterstitialVideoAds_Load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a17InterstitialVideoB5_LoadyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a17InterstitialVideoB5_LoadyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahInterstitialVideoAds_Show",
+            "printedName": "YeahInterstitialVideoAds_Show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a17InterstitialVideoB5_ShowyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a17InterstitialVideoB5_ShowyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahRewardedVideoAds_Load",
+            "printedName": "YeahRewardedVideoAds_Load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a13RewardedVideoB5_LoadyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a13RewardedVideoB5_LoadyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "YeahRewardedVideoAds_Show",
+            "printedName": "YeahRewardedVideoAds_Show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7YeahAds0a1_B0C0a13RewardedVideoB5_ShowyyF",
+            "mangledName": "$s7YeahAds0a1_B0C0a13RewardedVideoB5_ShowyyF",
+            "moduleName": "YeahAds",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YeahAds@objc(cs)Yeah_Ads",
+        "mangledName": "$s7YeahAds0a1_B0C",
+        "moduleName": "YeahAds",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RewardUpdateDelegate",
+            "printedName": "RewardUpdateDelegate",
+            "usr": "s:7YeahAds20RewardUpdateDelegateP",
+            "mangledName": "$s7YeahAds20RewardUpdateDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "WebViewUpdateDelegate",
+            "printedName": "WebViewUpdateDelegate",
+            "usr": "s:7YeahAds21WebViewUpdateDelegateP",
+            "mangledName": "$s7YeahAds21WebViewUpdateDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINavigationController",
+        "printedName": "UINavigationController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@YeahAds@@objc(cs)UINavigationController(py)shouldAutorotate",
+            "mangledName": "$sSo22UINavigationControllerC7YeahAdsE16shouldAutorotateSbvp",
+            "moduleName": "YeahAds",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@YeahAds@@objc(cs)UINavigationController(im)shouldAutorotate",
+                "mangledName": "$sSo22UINavigationControllerC7YeahAdsE16shouldAutorotateSbvg",
+                "moduleName": "YeahAds",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@YeahAds@@objc(cs)UINavigationController(py)supportedInterfaceOrientations",
+            "mangledName": "$sSo22UINavigationControllerC7YeahAdsE30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "YeahAds",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@YeahAds@@objc(cs)UINavigationController(im)supportedInterfaceOrientations",
+                "mangledName": "$sSo22UINavigationControllerC7YeahAdsE30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "YeahAds",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UINavigationController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UINavigationController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "Array",
+      "offset": 496,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 757,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1159,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1239,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1291,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1700,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2629,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2637,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2648,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2660,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2898,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3365,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3430,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4068,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4291,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4466,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4597,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4716,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4815,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4947,
+      "length": 11,
+      "value": "\"close.png\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 5134,
+      "length": 14,
+      "value": "\"RewardPoints\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 5395,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5604,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 7556,
+      "length": 21,
+      "value": "\"Error loading ads: \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahRewardedVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8649,
+      "length": 20,
+      "value": "\"AdsManager error: \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 148,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1230,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1639,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2583,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2591,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2602,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2614,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3319,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3384,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3914,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 11,
+      "value": "\"landscape\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4576,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4695,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4794,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4926,
+      "length": 11,
+      "value": "\"close.png\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 5175,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6023,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 7343,
+      "length": 21,
+      "value": "\"Error loading ads: \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "StringLiteral",
+      "offset": 8648,
+      "length": 20,
+      "value": "\"AdsManager error: \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialVideoAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "Dictionary",
+      "offset": 169,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 65,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 1,
+      "value": "\" -   \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 16,
+      "value": "\"Response Error\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 13,
+      "value": "\"apiResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "Array",
+      "offset": 1157,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "Array",
+      "offset": 1316,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 13,
+      "value": "\"apiResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 1884,
+      "length": 1,
+      "value": "\" -   \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 1918,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2138,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/WebService.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 8,
+      "value": "\"%02hhx\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 964,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1006,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1712,
+      "length": 11,
+      "value": "\"close.png\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1997,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2004,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2252,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2260,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2271,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2283,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2423,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2854,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2921,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2990,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3042,
+      "length": 392,
+      "value": "\"<!DOCTYPE html><html><style type='text\/css'>html,body {margin: 0;padding: 0;width: 100%;height: 100%;}html {display: table;}body {display: table-cell;vertical-align: middle;text-align: center;}<\/style><meta name=\"viewport\" content=\"user-scalable=no, width=device-width\"><body style= \"width=\"100%\";height=\"100%\";initial-scale=\"1.0\"; maximum-scale=\"1.0\"; user-scalable=\"no\";\">\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 3445,
+      "length": 16,
+      "value": "\"<\/body><\/html>\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3752,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "Dictionary",
+      "offset": 4384,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4620,
+      "length": 66,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4626,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4646,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4685,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4806,
+      "length": 27,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4832,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4955,
+      "length": 61,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 4982,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahInterstitialImageAd.swift",
+      "kind": "StringLiteral",
+      "offset": 5015,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "Array",
+      "offset": 603,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "FloatLiteral",
+      "offset": 1378,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "FloatLiteral",
+      "offset": 1468,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 1686,
+      "length": 26,
+      "value": "\"kCFLocaleLanguageCodeKey\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 1756,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 1876,
+      "length": 6,
+      "value": "\"IPAD\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 8,
+      "value": "\"iPhone\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2115,
+      "length": 8,
+      "value": "\"Tablet\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2335,
+      "length": 6,
+      "value": "\"WIFI\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 8,
+      "value": "\"MOBILE\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 5,
+      "value": "\"LAN\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2611,
+      "length": 10,
+      "value": "\"LOOPBACK\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2702,
+      "length": 7,
+      "value": "\"OTHER\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
+      "length": 9,
+      "value": "\"Monitor\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2862,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 2989,
+      "length": 10,
+      "value": "\"timezone\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3043,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3048,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3068,
+      "length": 9,
+      "value": "\"App_cat\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3078,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 8,
+      "value": "\"userid\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3108,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3124,
+      "length": 8,
+      "value": "\"Dmp_id\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3192,
+      "length": 16,
+      "value": "\"connectionType\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3230,
+      "length": 11,
+      "value": "\"useragent\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3270,
+      "length": 11,
+      "value": "\"userAgent\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3314,
+      "length": 11,
+      "value": "\"dataSpeed\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3357,
+      "length": 10,
+      "value": "\"Dpidsha1\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3428,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 9,
+      "value": "\"Dpidmd5\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3516,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3533,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3577,
+      "length": 6,
+      "value": "\"udid\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3653,
+      "length": 7,
+      "value": "\"appId\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3710,
+      "length": 6,
+      "value": "\"make\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3754,
+      "length": 7,
+      "value": "\"brand\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3763,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3784,
+      "length": 11,
+      "value": "\"Longitude\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3825,
+      "length": 10,
+      "value": "\"Latitude\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3864,
+      "length": 12,
+      "value": "\"deviceType\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 13,
+      "value": "\"screenwidth\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3918,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3953,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3968,
+      "length": 14,
+      "value": "\"screenheight\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 3984,
+      "length": 37,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4020,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4035,
+      "length": 14,
+      "value": "\"displaywidth\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4051,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4101,
+      "length": 15,
+      "value": "\"displayheight\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4118,
+      "length": 37,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4169,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4216,
+      "length": 5,
+      "value": "\"osv\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4268,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4304,
+      "length": 9,
+      "value": "\"carrier\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4315,
+      "length": 10,
+      "value": "\"vodafone\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4339,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4350,
+      "length": 10,
+      "value": "\"vodafone\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 13,
+      "value": "\"viewerEmail\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4389,
+      "length": 16,
+      "value": "\"rose@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4419,
+      "length": 13,
+      "value": "\"viewerPhone\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4434,
+      "length": 12,
+      "value": "\"9876543210\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4460,
+      "length": 14,
+      "value": "\"viewerGender\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4476,
+      "length": 8,
+      "value": "\"Female\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4498,
+      "length": 12,
+      "value": "\"viewerName\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4513,
+      "length": 6,
+      "value": "\"rose\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4533,
+      "length": 14,
+      "value": "\"device_email\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4550,
+      "length": 16,
+      "value": "\"rose@gmail.com\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4738,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4765,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4833,
+      "length": 12,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 4843,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5031,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5058,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5126,
+      "length": 12,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5136,
+      "length": 1,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5337,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5351,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5353,
+      "length": 37,
+      "value": "\"publisherid=\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5389,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5391,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5407,
+      "length": 23,
+      "value": "\"API Url: \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5464,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5477,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5489,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5613,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5624,
+      "length": 5,
+      "value": "\"%2b\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5659,
+      "length": 55,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5673,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5675,
+      "length": 37,
+      "value": "\"publisherid=\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5711,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5713,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 5921,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 6150,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 6765,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7040,
+      "length": 5,
+      "value": "\"en0\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7057,
+      "length": 5,
+      "value": "\"en2\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7074,
+      "length": 5,
+      "value": "\"en3\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7091,
+      "length": 5,
+      "value": "\"en4\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7108,
+      "length": 9,
+      "value": "\"pdp_ip0\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7129,
+      "length": 9,
+      "value": "\"pdp_ip1\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7150,
+      "length": 9,
+      "value": "\"pdp_ip2\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7171,
+      "length": 9,
+      "value": "\"pdp_ip3\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 7645,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 8385,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 8423,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 8593,
+      "length": 16,
+      "value": "\"www.google.com\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 8640,
+      "length": 13,
+      "value": "\"NO INTERNET\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9198,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9416,
+      "length": 4,
+      "value": "\"2G\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9503,
+      "length": 4,
+      "value": "\"4G\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9566,
+      "length": 4,
+      "value": "\"3G\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9642,
+      "length": 6,
+      "value": "\"WIFI\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/APICall\/APICall.swift",
+      "kind": "StringLiteral",
+      "offset": 9708,
+      "length": 13,
+      "value": "\"NO INTERNET\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 117,
+      "length": 65,
+      "value": "\"https:\/\/revphpe.djaxbidder.com\/Yeah_app\/api\/request_sdkang.php?\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 32,
+      "value": "\"Internet Connection Available!\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 36,
+      "value": "\"Internet Connection not Available!\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 17,
+      "value": "\"SDK Initialized\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 17,
+      "value": "\"Request Started\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 20,
+      "value": "\"Failed to navigate\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 18,
+      "value": "\"Request Finished\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 482,
+      "length": 9,
+      "value": "\"Webview\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 8,
+      "value": "\"Banner\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 18,
+      "value": "\"INTERSTITIAL_VID\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 14,
+      "value": "\"REWARDED_VID\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 14,
+      "value": "\"Interstitial\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 4,
+      "value": "\"Ad\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 8,
+      "value": "\"Loaded\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 13,
+      "value": "\"Will Appear\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 12,
+      "value": "\"Did Appear\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 14,
+      "value": "\"Will Dismiss\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 13,
+      "value": "\"Did Dismiss\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 50,
+      "value": "\"There is no zone exists for your current request\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 66,
+      "value": "\"There is no zone exists for your current request\/Invalid Request\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 8,
+      "value": "\"Target\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 16,
+      "value": "\"Load Ad Failed\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 30,
+      "value": "\"Locaiton service not enabled\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1295,
+      "length": 15,
+      "value": "\"Target Failed\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 10,
+      "value": "\"Image Ad\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1363,
+      "length": 23,
+      "value": "\"Interstitial Image Ad\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1409,
+      "length": 19,
+      "value": "\"Rewarded Video Ad\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/General\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 23,
+      "value": "\"Interstitial Video Ad\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 802,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 911,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Network\/NetworkReachability.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1354,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 358,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 405,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 540,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 124,
+      "value": "\"<html><meta name=viewport content=width=device-width, shrink-to-fit=YES><body style='margin:0.0px;'>\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 2,
+      "value": "\"<\/body><\/html>\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "Dictionary",
+      "offset": 1385,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1565,
+      "length": 71,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1596,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1635,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1756,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1767,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1910,
+      "length": 66,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/YeahBasicAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1975,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 724,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 787,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Array",
+      "offset": 852,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1262,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1355,
+      "length": 13,
+      "value": "\"apiResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1652,
+      "length": 13,
+      "value": "\"apiResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 1978,
+      "length": 5,
+      "value": "\"ads\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2235,
+      "length": 13,
+      "value": "\"apiResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 16,
+      "value": "\"BannerResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 27,
+      "value": "\"InterstitialImageResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 18,
+      "value": "\"RewardedResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 27,
+      "value": "\"InterstitialVideoResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2637,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2663,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2825,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
+      "length": 9,
+      "value": "\"ad_type\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3069,
+      "length": 16,
+      "value": "\"BannerResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3272,
+      "length": 27,
+      "value": "\"InterstitialImageResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 18,
+      "value": "\"RewardedResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3687,
+      "length": 27,
+      "value": "\"InterstitialVideoResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3845,
+      "length": 62,
+      "value": "\"Error - \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3861,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3871,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3890,
+      "length": 15,
+      "value": "\"Target Failed\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 3906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 4579,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 4635,
+      "length": 16,
+      "value": "\"BannerResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 4744,
+      "length": 16,
+      "value": "\"BannerResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4836,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 4861,
+      "length": 10,
+      "value": "\"ad_check\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4884,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 4910,
+      "length": 15,
+      "value": "\"No ad to show\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5109,
+      "length": 8,
+      "value": "\"ad_tag\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5163,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5210,
+      "length": 8,
+      "value": "\"height\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 5427,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5479,
+      "length": 27,
+      "value": "\"InterstitialImageResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5590,
+      "length": 27,
+      "value": "\"InterstitialImageResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 5655,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5694,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5732,
+      "length": 10,
+      "value": "\"ad_check\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5781,
+      "length": 15,
+      "value": "\"No ad to show\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 5882,
+      "length": 8,
+      "value": "\"ad_tag\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6015,
+      "length": 19,
+      "value": "\"InterstitialImage\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6074,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 6235,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6287,
+      "length": 27,
+      "value": "\"InterstitialVideoResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6398,
+      "length": 27,
+      "value": "\"InterstitialVideoResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 6463,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6527,
+      "length": 10,
+      "value": "\"ad_check\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6576,
+      "length": 15,
+      "value": "\"No ad to show\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6672,
+      "length": 8,
+      "value": "\"ad_tag\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6740,
+      "length": 8,
+      "value": "\"layout\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6873,
+      "length": 19,
+      "value": "\"InterstitialVideo\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6927,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 6966,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 7107,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7159,
+      "length": 18,
+      "value": "\"RewardedResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7261,
+      "length": 18,
+      "value": "\"RewardedResponse\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "Dictionary",
+      "offset": 7317,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7356,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7381,
+      "length": 10,
+      "value": "\"ad_check\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7430,
+      "length": 15,
+      "value": "\"No ad to show\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7526,
+      "length": 11,
+      "value": "\"ad_values\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7632,
+      "length": 9,
+      "value": "\"rewards\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7726,
+      "length": 8,
+      "value": "\"ad_tag\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7790,
+      "length": 8,
+      "value": "\"layout\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7919,
+      "length": 15,
+      "value": "\"RewardedVideo\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7966,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 7999,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 8151,
+      "length": 14,
+      "value": "\"RewardPoints\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 8549,
+      "length": 19,
+      "value": "\"InterstitialImage\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8837,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 8893,
+      "length": 15,
+      "value": "\"RewardedVideo\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9263,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 9319,
+      "length": 19,
+      "value": "\"InterstitialVideo\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9640,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 9893,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 9978,
+      "length": 5,
+      "value": "\"ads\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10270,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10281,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10305,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10387,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10398,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10510,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10521,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10551,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10633,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10644,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10757,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10768,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10799,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10892,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10903,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10985,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 10994,
+      "length": 2,
+      "value": "\" -- \""
+    },
+    {
+      "filePath": "\/Users\/djax\/Desktop\/YeahAds\/YeahAds\/Internal\/Yeah_Ads.swift",
+      "kind": "StringLiteral",
+      "offset": 11004,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

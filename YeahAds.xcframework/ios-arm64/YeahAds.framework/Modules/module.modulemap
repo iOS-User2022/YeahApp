@@ -1,0 +1,11 @@
+framework module YeahAds {
+  umbrella header "YeahAds.h"
+
+  export *
+  module * { export * }
+}
+
+module YeahAds.Swift {
+  header "YeahAds-Swift.h"
+  requires objc
+}

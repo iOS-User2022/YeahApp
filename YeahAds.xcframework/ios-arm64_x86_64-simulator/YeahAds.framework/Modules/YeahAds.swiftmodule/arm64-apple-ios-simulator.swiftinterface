@@ -1,0 +1,66 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name YeahAds
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AdSupport
+import CommonCrypto
+import CoreLocation
+import CoreTelephony
+import CryptoKit
+import Foundation
+import GoogleInteractiveMediaAds
+import Network
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+@_exported import YeahAds
+import _Concurrency
+import _StringProcessing
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+}
+public var apiBaseUrl: Swift.String
+@_hasMissingDesignatedInitializers public class Reachability {
+  @objc deinit
+}
+public protocol RewardUpdateDelegate : AnyObject {
+  func passAPIvalues(point: Swift.Array<Swift.Dictionary<Swift.String, Swift.AnyObject>>)
+}
+public protocol WebViewUpdateDelegate : AnyObject {
+  func updateWebView(webV: WebKit.WKWebView)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class Yeah_Ads : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var rewardDelegate: (any YeahAds.RewardUpdateDelegate)?
+  @_Concurrency.MainActor(unsafe) weak public var webViewDelegate: (any YeahAds.WebViewUpdateDelegate)?
+  @_Concurrency.MainActor(unsafe) public func YeahAdsInitialize(id: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension YeahAds.Yeah_Ads {
+  @_Concurrency.MainActor(unsafe) public func getUserDefaultValue(zones: Swift.String, str: Swift.String)
+}
+extension YeahAds.Yeah_Ads : YeahAds.RewardUpdateDelegate {
+  @_Concurrency.MainActor(unsafe) public func passAPIvalues(point: Swift.Array<Swift.Dictionary<Swift.String, Swift.AnyObject>>)
+}
+extension YeahAds.Yeah_Ads : YeahAds.WebViewUpdateDelegate {
+  @_Concurrency.MainActor(unsafe) public func updateWebView(webV: WebKit.WKWebView)
+}
+extension YeahAds.Yeah_Ads {
+  @_Concurrency.MainActor(unsafe) public func YeahAppBannerImageAd()
+  @_Concurrency.MainActor(unsafe) public func YeahInterstitialImageAds_Load()
+  @_Concurrency.MainActor(unsafe) public func YeahInterstitialImageAds_Show()
+  @_Concurrency.MainActor(unsafe) public func YeahInterstitialVideoAds_Load()
+  @_Concurrency.MainActor(unsafe) public func YeahInterstitialVideoAds_Show()
+  @_Concurrency.MainActor(unsafe) public func YeahRewardedVideoAds_Load()
+  @_Concurrency.MainActor(unsafe) public func YeahRewardedVideoAds_Show()
+}
+extension YeahAds.Yeah_Ads : WebKit.WKUIDelegate, WebKit.WKNavigationDelegate {
+}
