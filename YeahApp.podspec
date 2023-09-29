@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version       = '1.0.0'
   spec.license       = { :type => 'BSD' }
   spec.homepage      = 'https://github.com/iOS-User2022/YeahApp'
-  spec.authors       = { 'iOS-User2022' => 'iosteam2022@gmail.com' }
+  spec.authors       = { 'Amuthakumari89' => 'iosteam2022@gmail.com' }
   spec.summary       = 'It is a ad delivered sdk'
   spec.source        = { :git => 'https://github.com/iOS-User2022/YeahApp.git', :tag => 'v1.0.0' }
   spec.module_name   = 'Rich'
